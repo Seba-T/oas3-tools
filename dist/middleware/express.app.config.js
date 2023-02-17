@@ -19,7 +19,7 @@ class ExpressAppConfig {
         this.setOpenApiValidatorOptions(definitionPath, appOptions);
         // Create new express app only if not passed by options
         this.app = appOptions.app || express();
-        this.app.use(cors(appOptions.cors));
+        this.app.use(appOptions.cors);
         const spec = fs.readFileSync(definitionPath, 'utf8');
         const swaggerDoc = jsyaml.safeLoad(spec);
         this.app.use(bodyParser.urlencoded());
