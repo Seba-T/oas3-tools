@@ -7,7 +7,7 @@ const parseurl = require("parseurl");
 const path = require("path");
 const serveStatic = require("serve-static");
 const swagger_ui_options_1 = require("./swagger.ui.options");
-const swagger_ui_dist_1 = require("swagger-ui-dist");
+const swagger_ui_dist_1 = require("modified-swagger-ui-dist");
 const debug_1 = require("debug");
 const debug = (0, debug_1.default)("oas3-tools:ui");
 class SwaggerUI {
