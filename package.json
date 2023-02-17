@@ -1,6 +1,6 @@
 {
   "name": "updated-oas3-tools",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Up to date Swagger-UI and API Rest Routing for Open API v3.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "url": "https://github.com/Seba-T"
   },
   "bugs": {
-    "url": "https://github.com/bug-hunters/oas3-tools/issues"
+    "url": "https://github.com/Seba-T/oas3-tools/issues"
   },
-  "homepage": "https://github.com/bug-hunters/oas3-tools",
+  "homepage": "https://github.com/Seba-T/oas3-tools",
   "license": "MIT",
   "repository": {
     "type": "git",
